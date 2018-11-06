@@ -1,9 +1,4 @@
-en:
-  user1:
-    user_created: "Welcome to the Sample App"
-    user_danger: "Do not have an account"
-    user_created_fail: "Can not create acount"
-
+en:    
   shared:
     tfc: "The form contains"
 
@@ -54,6 +49,7 @@ en:
       profile: "Profile"
       acount: "Acount"
       sample_app: "Sample App"
+      settings: "Settings"
     footer:
       about: "About"
       contact: "Contact"
@@ -62,10 +58,28 @@ en:
   
   users:
     new:
-      creat_acount: "Creat my account"
-      sing_up: "Sign up"
+      create_acount: "Create my acount"
+      sign_up: "Sign up!"
     show: 
       created: "Welcome to the Sample App"
+    user:
+      delete: "Delete"
+    edit:
+      edit_user: "Edit user"
+      save_changes: "Save changes"
+    index:
+      all_users: "All users"
+    create:
+      user_created: "Welcome to the Sample App"
+      user_created_fail: "Can not create acount"
+    update:
+      profile_update: "Profile update"
+    logged_in_user:
+      please_log: "Please log in!"
+    destroy:
+      delete: "User delete"
+    find_user:
+      user_danger: "Do not have an account"
 
   helper:
     helper_title: "App Sample by Ruby on Rails"
