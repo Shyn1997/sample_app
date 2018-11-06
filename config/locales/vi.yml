@@ -1,0 +1,22 @@
+vi:
+  static_pages:
+    home:
+      title: "Mẫu ứng dụng"
+      body: "Đây là trang chủ cho Hướng dẫn về Ruby on Rails ứng dụng mẫu."
+    help:
+      title: "Hỗ trợ"
+      body: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại Để được trợ giúp về ứng dụng mẫu này, hãy xem"   
+    contact:
+      title: "Liên hệ"
+      body: "TLiên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại trang liên hệ"
+    about:
+      title: "Về chúng tôi"
+      aboutt1: "Hướng dẫn Ruby on Rails"
+      aboutt2: "để dạy phát triển web với"
+      aboutt3: "Đây là ứng dụng mẫu cho hướng dẫn."
+
+  layouts:
+    title_layout: "ứng dụng ruby on rails đơn giản"
+
+  helper:
+    helper_title: "Hướng dẫn làm app bằng Ruby on Rails"
