@@ -1,8 +1,12 @@
 en:
   static_pages:
     home:
-     title: "Sample App"
-     body: "This is the home page for the sample application."
+      title: "Home"
+      h1layout: "Welcome to the Sample App"
+      h2layout: "This is the home page for the"
+      h3layout: "Ruby on Rails Tutorial"
+      h4layout: "sample application."
+      h5layout: "Sign up now!"
     help:
       title: "Help"
       body: "Get help on the Ruby on Rails Tutorial at the see the"
@@ -14,6 +18,23 @@ en:
       aboutt1: "Ruby on Rails Tutorial"
       aboutt2: "to teach web development with"
       aboutt3: "This is the sample application for the tutorial."
-
+  
+  layouts:
+    header:
+      home: "Home"
+      help: "help"
+      log_in: "Login"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "New"
+      vietnamese: "Vietnamese"
+      enghlish: "Enghlish"
+      rot: "Ruby on Rails Tutorial"
   helper:
     helper_title: "App Sample by Ruby on Rails"
+
+  users:
+    new:
+      n1view: "Sign up"
+      n2view: "This will be a signup page for new user"
