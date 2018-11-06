@@ -23,14 +23,14 @@ vi:
     header:
       home: "Trang chủ"
       help: "Giúp đỡ"
-      log_in: "Đăng nhập"   
+      log_in: "Đăng nhập"
+      vietnamese: "Tiếng viêt"
+      enghlish: "Tiếng anh"   
     footer:
       about: "Về chúng tôi"
       contact: "Liên hệ" 
       news: "Tin tức"
       rot: "Hướng dẫn Ruby on Rails"
-      vietnamese: "Tiếng viêt"
-      enghlish: "Tiếng anh"
 
   helper:
     helper_title: "Ứng dụng đơn giản bằng Ruby on Rails"

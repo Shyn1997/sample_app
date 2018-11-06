@@ -24,12 +24,12 @@ en:
       home: "Home"
       help: "help"
       log_in: "Login"
+      vietnamese: "Vietnamese"
+      enghlish: "Enghlish"
     footer:
       about: "About"
       contact: "Contact"
       news: "New"
-      vietnamese: "Vietnamese"
-      enghlish: "Enghlish"
       rot: "Ruby on Rails Tutorial"
   helper:
     helper_title: "App Sample by Ruby on Rails"
