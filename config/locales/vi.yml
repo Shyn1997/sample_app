@@ -88,5 +88,5 @@ vi:
 
   user_mailer:
     account_activation:
-    click_activate: "Welcome to the Sample App! Click on the link below to activate your account"
-
+      click_activate: "Welcome to the Sample App! Click on the link below to activate your account"
+    

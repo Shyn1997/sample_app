@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   before_action :load_gender, only: %i(new create)
   before_action :find_user, only: %i(show edit update correct_user destroy)
-  before_action :logged_in_user, only: %i(edit update index destroy)
+  before_action :logged_in_user, only: %i(index destroy)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
 
@@ -14,7 +14,6 @@ class UsersController < ApplicationController
   end
 
   def create
-    
     if (@user = User.new user_params).save
       @user.send_activation_email
       flash[:info] = t ".activation"
