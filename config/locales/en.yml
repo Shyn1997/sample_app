@@ -15,5 +15,5 @@ en:
       aboutt2: "to teach web development with"
       aboutt3: "This is the sample application for the tutorial."
 
-  layouts:
-    title_layout: "Ruby on Rails Tutorial Sample App"
+  helper:
+    helper_title: "App Sample by Ruby on Rails"
