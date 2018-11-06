@@ -1,4 +1,20 @@
 en:
+  user1:
+    user_created: "Welcome to the Sample App"
+    user_danger: "Do not have an account"
+    user_created_fail: "Can not create acount"
+
+  shared:
+    tfc: "The form contains"
+
+  activerecord:
+    models:
+      users:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "confirmation"
+
   static_pages:
     home:
       title: "Home"
@@ -31,10 +47,13 @@ en:
       contact: "Contact"
       news: "New"
       rot: "Ruby on Rails Tutorial"
-  helper:
-    helper_title: "App Sample by Ruby on Rails"
-
+  
   users:
     new:
-      n1view: "Sign up"
-      n2view: "This will be a signup page for new user"
+      creat_acount: "Creat my account"
+      sing_up: "Sign up"
+    show: 
+      created: "Welcome to the Sample App"
+
+  helper:
+    helper_title: "App Sample by Ruby on Rails"

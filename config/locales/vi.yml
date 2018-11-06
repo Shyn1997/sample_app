@@ -1,4 +1,20 @@
 vi:
+  user1:
+    user_created: "Chào mừng bạn đến với Sample App"
+    user_danger: "Không có tài khoản"
+    user_created_fail: "Không thể tạo tài khoản"
+
+  shared:
+    tfc: "Biểu mẫu có chứa"
+
+  activerecord:
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận"
+
   static_pages:
     home:
       title: "Trang chủ"
@@ -32,10 +48,12 @@ vi:
       news: "Tin tức"
       rot: "Hướng dẫn Ruby on Rails"
 
-  helper:
-    helper_title: "Ứng dụng đơn giản bằng Ruby on Rails"
-
   users:
     new:
-      n1view: "Đăng ký"
-      n2view: "Đây sẽ là trang đăng ký cho người dùng mới"
+      creat_acount: "Tạo tài khoản"  
+      sing_up: "Đăng ký" 
+    show: 
+      created: "Welcome to the Sample App"
+    
+  helper:
+    helper_title: "Ứng dụng đơn giản bằng Ruby on Rails"
