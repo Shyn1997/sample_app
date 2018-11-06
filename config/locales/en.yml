@@ -1,4 +1,4 @@
-en:    
+en:
   shared:
     tfc: "The form contains"
 
@@ -56,6 +56,12 @@ en:
       news: "New"
       rot: "Ruby on Rails Tutorial"
   
+  sessions:
+    create:
+      invalid: "Invalid email/password combination"
+    activated_fail:
+      account_not_activated: "Acount not activated. Check your email for the activation link."
+    
   users:
     new:
       create_acount: "Create my acount"
@@ -70,7 +76,7 @@ en:
     index:
       all_users: "All users"
     create:
-      user_created: "Welcome to the Sample App"
+      activation: "Please check your email to activate your account."
       user_created_fail: "Can not create acount"
     update:
       profile_update: "Profile update"
@@ -83,7 +89,16 @@ en:
 
   helper:
     helper_title: "App Sample by Ruby on Rails"
-  
-  controller:
-    invalid: "Invalid email/password combination"
-    
+
+  user_mailer:
+    account_activation:
+    click_activate: "Welcome to the Sample App! Click on the link below to activate your account"
+    activate: "Activate"
+
+  mail:
+    account_activation: "Account activation"
+
+  account_activations:
+    edit:
+      account_activated: "Acount activated"
+      invalid_activation_link: "Invalid activation link"
