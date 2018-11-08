@@ -17,6 +17,6 @@ vi:
 
   layouts:
     title_layout: "ứng dụng ruby on rails đơn giản"
-
+    
   helper:
     helper_title: "Hướng dẫn làm app bằng Ruby on Rails"

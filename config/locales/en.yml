@@ -17,6 +17,6 @@ en:
 
   layouts:
     title_layout: "Ruby on Rails Tutorial Sample App"
-  
+    
   helper:
     helper_title: "Ruby on Rails Tutorial Sample App"
