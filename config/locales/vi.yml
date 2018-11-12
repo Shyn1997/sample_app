@@ -1,8 +1,12 @@
 vi:
   static_pages:
     home:
-      title: "Mẫu ứng dụng"
-      body: "Đây là trang chủ cho Hướng dẫn về Ruby on Rails ứng dụng mẫu."
+      title: "Trang chủ"
+      h1layout: "Chào mừng bạn đến với Sample App"
+      h2layout: "Đây là trang chủ cho"
+      h3layout: "Hướng dẫn Ruby on Rails"
+      h4layout: "ứng dụng mẫu"
+      h5layout: "Đăng ký ngay bây giờ!"
     help:
       title: "Hỗ trợ"
       body: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại Để được trợ giúp về ứng dụng mẫu này, hãy xem"   
@@ -15,5 +19,23 @@ vi:
       aboutt2: "để dạy phát triển web với"
       aboutt3: "Đây là ứng dụng mẫu cho hướng dẫn."
 
+  layouts:
+    header:
+      home: "Trang chủ"
+      help: "Giúp đỡ"
+      log_in: "Đăng nhập"   
+    footer:
+      about: "Về chúng tôi"
+      contact: "Liên hệ" 
+      news: "Tin tức"
+      rot: "Hướng dẫn Ruby on Rails"
+      vietnamese: "Tiếng viêt"
+      enghlish: "Tiếng anh"
+
   helper:
     helper_title: "Ứng dụng đơn giản bằng Ruby on Rails"
+
+  users:
+    new:
+      n1view: "Đăng ký"
+      n2view: "Đây sẽ là trang đăng ký cho người dùng mới"

@@ -1,3 +1,12 @@
 <% provide :title, t(".title") %>
-<h1><%= t ".title" %></h1>
-<p><%= t ".body" %></p>
+<div class="center jumbotron">
+  <h1><%= t ".h1layout" %></h1>
+
+  <h2>
+    <%= t ".h2layout" %>
+    <%= link_to t(".h3layout"), "google.com" %>
+    <%= t ".h4layout" %>
+  </h2>
+
+  <%= link_to t(".h5layout"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
