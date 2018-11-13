@@ -3,6 +3,8 @@
     <%= link_to "sample app", root_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to t(".vietnamese"), locale: "vi" %></li>
+        <li><%= link_to t(".enghlish"), locale: "en" %></li>
         <li><%= link_to t(".home"), root_path %></li>
         <li><%= link_to t(".help"), helf_path %></li>
         <li><%= link_to t(".log_in"), "#" %></li>
