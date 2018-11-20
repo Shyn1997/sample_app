@@ -7,6 +7,11 @@ en:
   shared:
     tfc: "The form contains"
 
+  sessions:
+    new:
+      log_in: "Log in"
+      sign_up_now: "Sign up now!"
+
   activerecord:
     models:
       users:
@@ -42,6 +47,12 @@ en:
       log_in: "Login"
       vietnamese: "Vietnamese"
       enghlish: "Enghlish"
+      aount: "Acount"
+      log_out: "Log out"
+      settings: "Setting"
+      profile: "Profile"
+      acount: "Acount"
+      sample_app: "Sample App"
     footer:
       about: "About"
       contact: "Contact"
@@ -57,3 +68,7 @@ en:
 
   helper:
     helper_title: "App Sample by Ruby on Rails"
+  
+  controller:
+    invalid: "Invalid email/password combination"
+    

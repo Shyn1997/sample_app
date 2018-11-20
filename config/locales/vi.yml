@@ -7,6 +7,11 @@ vi:
   shared:
     tfc: "Biểu mẫu có chứa"
 
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      sign_up_now: "Đăng ký ngay!"
+
   activerecord:
     attributes:
       user:
@@ -40,8 +45,13 @@ vi:
       home: "Trang chủ"
       help: "Giúp đỡ"
       log_in: "Đăng nhập"
-      vietnamese: "Tiếng viêt"
       enghlish: "Tiếng anh"   
+      vietnamese: "Tiếng viêt"  
+      enghlish: "Tiếng anh"
+      aount: "Tài khoản"
+      log_out: "Đăng xuất"
+      settings: "Cài đặt"
+      profile: "Hồ sơ"
     footer:
       about: "Về chúng tôi"
       contact: "Liên hệ" 
