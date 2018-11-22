@@ -2,3 +2,4 @@ validates_name: 50
 validates_email: 255
 validates_password: 6
 size_avatar: 80
+session_value: 1
