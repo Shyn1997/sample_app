@@ -1,9 +1,4 @@
 vi:
-  user1:
-    user_created: "Chào mừng bạn đến với Sample App"
-    user_danger: "Không có tài khoản"
-    user_created_fail: "Không thể tạo tài khoản"
-
   shared:
     tfc: "Biểu mẫu có chứa"
 
@@ -60,10 +55,28 @@ vi:
 
   users:
     new:
-      creat_acount: "Tạo tài khoản"  
-      sing_up: "Đăng ký" 
+      create_acount: "Create my acount"
+      sign_up: "Sign up!"
     show: 
       created: "Welcome to the Sample App"
+    user:
+      delete: "Delete"
+    edit:
+      edit_user: "Edit user"
+      save_changes: "Save changes"
+    index:
+      all_users: "All users"
+    create:
+      user_created: "Welcome to the Sample App"
+      user_created_fail: "Can not create acount"
+    update:
+      profile_update: "Profile update"
+    logged_in_user:
+      please_log: "Please log in!"
+    destroy:
+      delete: "User delete"
+    find_user:
+      user_danger: "Do not have an account"
     
   helper:
     helper_title: "Ứng dụng đơn giản bằng Ruby on Rails"
