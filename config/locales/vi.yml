@@ -67,7 +67,7 @@ vi:
     index:
       all_users: "All users"
     create:
-      user_created: "Welcome to the Sample App"
+      activation: "Please check your email to activate your account."
       user_created_fail: "Can not create acount"
     update:
       profile_update: "Profile update"
@@ -80,3 +80,13 @@ vi:
     
   helper:
     helper_title: "Ứng dụng đơn giản bằng Ruby on Rails"
+    account_not_activated: "Acount not activated"
+
+  activation:
+    account_activated: "Acount activated"
+    invalid_activation_link: "Invalid activation link"
+
+  user_mailer:
+    account_activation:
+    click_activate: "Welcome to the Sample App! Click on the link below to activate your account"
+
