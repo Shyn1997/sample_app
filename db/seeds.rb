@@ -1,4 +1,4 @@
-User.create!(name: "Example User",
+User.create!(name: "Shyn Handsome",
     email: "thiennk52@wru.vn",
     password: "0912thien",
     password_confirmation: "0912thien", 

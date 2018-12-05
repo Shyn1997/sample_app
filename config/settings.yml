@@ -4,3 +4,4 @@ validates_password: 6
 size_avatar: 80
 session_value: 1
 record_page: 15
+time_password_reset: 2

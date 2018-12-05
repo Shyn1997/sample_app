@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  attr_reader :remember_token, :activation_token
+  attr_reader :remember_token, :activation_token, :reset_token
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   enum gender: {male: 0, female: 1}
 
@@ -57,6 +57,20 @@ class User < ApplicationRecord
     UserMailer.account_activation(self).deliver_now
   end
 
+  def create_reset_digest
+    @reset_token = User.new_token
+    update_attribute :reset_digest, User.digest(@reset_token)
+    update_attribute :reset_sent_at, Time.zone.now
+  end
+
+  def send_password_reset_email
+    UserMailer.password_reset(self).deliver_now
+  end
+
+  def password_reset_expired?
+    reset_sent_at < Settings.time_password_reset.hours.ago
+  end
+
   private
 
   def downcase_email
@@ -64,7 +78,7 @@ class User < ApplicationRecord
   end
 
   def create_activation_digest
-    self.activation_token = User.new_token
+    @activation_token = User.new_token
     self.activation_digest = User.digest activation_token
   end
 end
