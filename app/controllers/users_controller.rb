@@ -25,6 +25,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    @microposts = @user.microposts.page(params[:page]).per Settings.record_page
     return if @user
     redirect_to root_url
   end
