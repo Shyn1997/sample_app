@@ -4,6 +4,9 @@ en:
     micropost_form:
       compose_new_micropost: "Compose new micropost"
       post: "Post"
+    stats:
+      followers: "followers"
+      following: "following"
 
   activerecord:
     models:
@@ -69,6 +72,13 @@ en:
       forgot_password: "(Forgot password)"
     
   users:
+    show_follow:
+      view_my_profile: "View my profile"
+      microposts: "Microposts:"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow" 
     new:
       create_acount: "Create my acount"
       sign_up: "Sign up!"
@@ -134,6 +144,8 @@ en:
     micropost:
       delete: "delete"
       you_sure: "You sure?"
+      posted: "Posted"
+      ago: "ago."
     create:
       micropost_created: "Micropost created!"
     destroy:

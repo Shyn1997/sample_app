@@ -25,6 +25,8 @@ class UsersController < ApplicationController
   end
 
   def show
+    @follow = current_user.active_relationships.build
+    @unfollow = current_user.active_relationships.find_by followed_id: @user.id
     @microposts = @user.microposts.page(params[:page]).per Settings.record_page
     return if @user
     redirect_to root_url

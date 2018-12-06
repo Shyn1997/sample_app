@@ -9,7 +9,18 @@ Rails.application.routes.draw do
   post "signup", to: "users#create"
   root "static_pages#home"
   resources :users
+  resources :followings do
+    member do
+      get :index
+    end
+  end
+  resources :followers do
+    member do
+      get :index
+    end
+  end
   resources :account_activations, only: %i(edit)
   resources :password_resets, only: %i(new create edit update)
   resources :microposts, only: %i(create destroy)
+  resources :relationships, only: %i(create destroy)
 end
