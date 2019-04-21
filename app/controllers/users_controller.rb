@@ -16,7 +16,7 @@ class UsersController < ApplicationController
   def create
     if (@user = User.new user_params).save
       @user.send_activation_email
-      flash[:info] = t ".activation"
+      flash[:info] = t ".activatio"
       redirect_to @user
     else
       flash[:danger] = t ".abc"
