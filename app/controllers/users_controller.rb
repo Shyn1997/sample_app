@@ -19,7 +19,7 @@ class UsersController < ApplicationController
       flash[:info] = t ".activation"
       redirect_to @user
     else
-      flash[:danger] = t ".user_created_fail"
+      flash[:danger] = t ".abc"
       render :new
     end
   end
